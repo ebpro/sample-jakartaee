@@ -21,7 +21,7 @@ jobs:
 
   maven-build:
 
-    runs-on: [self-hosted, linux, X64]
+    runs-on: ebpro-org
 
     steps:
     - uses: actions/checkout@v2
